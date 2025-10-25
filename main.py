@@ -14,4 +14,4 @@ def PrimeList(N):
             primes.append(str(num))
     return ' '.join(primes)
 if __name__ == "__main__":
-    print(PrimeList(10))  # 输出：2 3 5 7
+    print(PrimeList(10))
